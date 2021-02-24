@@ -3,7 +3,7 @@
 1. Go the directory
 2. Install the theme extension
 
-> `jupyter labextension install'
+> `jupyter labextension install`
 
 
 3. Restart Jupyterlab 
