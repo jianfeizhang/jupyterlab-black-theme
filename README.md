@@ -1,13 +1,14 @@
-# jupyterlab-black-theme
+# Installation
 
-
-Install the theme extension:
-
+1. Go the directory
+2. Install the theme extension
 
 jupyter labextension install
 
 
-Restart Jupyterlab, the black theme option would be an option of JupyterLab Theme in Settings
+3. Restart Jupyterlab 
+
+The black theme option would be an option of JupyterLab Theme in Settings
 
 
 ![Alt text](./black-theme.png?raw=true "black-theme")
