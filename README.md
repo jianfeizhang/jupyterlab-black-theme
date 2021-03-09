@@ -12,3 +12,5 @@ The black theme option would be an option of JupyterLab Theme in Settings
 
 
 ![Alt text](./black-theme-example.png?raw=true "black-theme-example")
+
+![Alt text](./theme-menu.png?raw=true "theme-menu")
