@@ -3,8 +3,6 @@
 | https://github.com/jianfeizhang/jupyterlab-black-theme-extension
 |----------------------------------------------------------------------------*/
 
-@import './variables.css';
-
 :root {
   /* The dark theme shadows need a bit of work, but this will probably also require work on the core layout
    * colors used in the theme as well. */
@@ -68,16 +66,6 @@
   --jp-border-color3: var(--md-grey-900);
   --jp-border-radius: 2px;
 
-  /* UI Fonts
-   *
-   * The UI font CSS variables are used for the typography all of the JupyterLab
-   * user interface elements that are not directly user generated content.
-   *
-   * The font sizing here is done assuming that the body font size of --jp-ui-font-size1
-   * is applied to a parent element. When children elements, such as headings, are sized
-   * in em all things will be computed relative to that body size.
-   */
-
   --jp-ui-font-scale-factor: 1.2;
   --jp-ui-font-size0: 0.83333em;
   --jp-ui-font-size1: 14px; /* Base font size */
@@ -86,11 +74,6 @@
 
   --jp-ui-font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Helvetica,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-  /*
-   * Use these font colors against the corresponding main layout colors.
-   * In a light theme, these go from dark to light.
-   */
 
   /* Defaults use Material Design specification */
   --jp-ui-font-color0: rgba(255, 255, 255, 1);
@@ -107,15 +90,6 @@
   --jp-ui-inverse-font-color1: rgba(0, 0, 0, 0.8);
   --jp-ui-inverse-font-color2: rgba(0, 0, 0, 0.5);
   --jp-ui-inverse-font-color3: rgba(0, 0, 0, 0.3);
-
-  /* Content Fonts
-   *
-   * Content font variables are used for typography of user generated content.
-   *
-   * The font sizing here is done assuming that the body font size of --jp-content-font-size1
-   * is applied to a parent element. When children elements, such as headings, are sized
-   * in em all things will be computed relative to that body size.
-   */
 
   --jp-content-line-height: 1.7;
   --jp-content-font-scale-factor: 1.2;
@@ -452,13 +426,6 @@
 
 
 
-
-
-/*-----------------------------------------------------------------------------
-| Copyright (c) Jupyter Development Team.
-| Distributed under the terms of the Modified BSD License.
-|----------------------------------------------------------------------------*/
-
 /* Set the default typography for monospace elements */
 tt,
 code,
@@ -497,7 +464,7 @@ pre {
 }
 
 .jp-RenderedImage {
-  background-color: #ffffff;
+  background-color: #292929;
   padding-bottom: 0rem;
   padding-top: 0.3rem;
   padding-left: 0.3rem;
